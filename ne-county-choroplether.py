@@ -31,3 +31,5 @@ for p in paths:
     p['style'] = path_style + color
     
 print soup.prettify()
+
+# usage: python ne-county-choroplether.py > governor_results.svg
