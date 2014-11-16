@@ -1,14 +1,6 @@
 import csv
 from bs4 import BeautifulSoup
 
-"""
-
-Data sample is a csv carved out of this .xls file: http://electionresults.sos.ne.gov/ResultsExport.aspx?rid=702&pty=&name=For%20Governor%20and%20Lt.%20Governor&cat=CTY
-
-Method adapted from: http://flowingdata.com/2009/11/12/how-to-make-a-us-county-thematic-map-using-free-tools/
-
-"""
-
 counties = {}
 reader = csv.reader(open('governor_county_cleaned.csv'), delimiter=",")
 
