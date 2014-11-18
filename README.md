@@ -7,8 +7,7 @@ A Python script adapted from <a href="http://flowingdata.com/2009/11/12/how-to-m
 
 ##Assumptions
 <ul>
-<li>You're rocking a Windows machine (hello, World-Herald peeps!).</li>
 <li>The first column in each .csv is the county name.</li>
 <li>For each column in each file, you've added a descriptive name and associated colors to the list that starts around line 13 (see the note). The name matches (or is included in) the file name.</li>
-<li>You have <a href="http://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a> installed. Optional: <a href="https://inkscape.org/en/">Inkscape</a>, if you want to use the <a href="https://github.com/cjwinchester/ne-county-choropleth/blob/master/svg2png.bat">management script</a> to spit out PNGs.</li>
+<li>You have <a href="http://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a> installed. Optional: <a href="https://inkscape.org/en/">Inkscape</a>, if you want to use the <a href="https://github.com/cjwinchester/ne-county-choropleth/blob/master/svg2png.bat">Windows-based management script</a> to spit out PNGs.</li>
 </ul>
