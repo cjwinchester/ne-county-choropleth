@@ -30,7 +30,6 @@ for file in files:
                 counties[county] = win_color
         
     svg = open('ne-counties.svg', 'rb').read()
-    output = open(str(file).replace('.csv','') + '_output.svg', 'wb')
     
     path_style = "color:#aaa; stroke:#fff; stroke-width:1; stroke-linecap:butt; stroke-linejoin:miter; stroke-miterlimit:4; fill:"
 
@@ -41,7 +40,8 @@ for file in files:
     for p in paths:
         color = counties[p['id']]
         p['style'] = path_style + color
-        
+    
+    output = open(str(file).replace('.csv','') + '_output.svg', 'wb')
     output.write(soup.prettify())
     output.flush()
     output.close()
